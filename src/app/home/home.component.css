@@ -33,3 +33,8 @@ mat-card:focus-visible, .mat-card:focus-visible {
 .title {
     margin-left: 20px;
 }
+.QR {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
