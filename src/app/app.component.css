@@ -1,0 +1,21 @@
+mat-card, .mat-card {
+    display: block;
+    background: #796969;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+    will-change: transform, box-shadow;
+    cursor: pointer;
+}
+
+mat-card:hover, .mat-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+mat-card:focus-visible, .mat-card:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.18), 0 12px 28px rgba(0, 0, 0, 0.18);
+    transform: translateY(-6px);
+}
